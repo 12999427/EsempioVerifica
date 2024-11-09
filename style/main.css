@@ -1,0 +1,34 @@
+.TitoloElemento {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.DescrizioneElemento {
+    font-style: italic;
+    margin: 5px;
+}
+
+a.Contatto {
+    color: black;
+    border: 4px solid lightblue;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+body {
+    background-color: #FFFDD0;
+}
+
+h1 {
+    font-family: Fantasy;
+    font-weight: lighter;
+}
+
+a.Footer {
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+ul {
+    display: flex;
+}

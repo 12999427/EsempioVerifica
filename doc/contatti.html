@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Contattaci e recensiscici
+    </title>
+    <meta charset="UTC-8">
+    <script src="../script/contatti.js"></script>
+    <link rel="stylesheet" href="../style/contatti.css">
+</head>
+<body>
+    <h1>
+        Contattaci e recensiscici
+    </h1>
+    <h2>
+        Esprimi un tuo giudizio
+    </h2>
+    <input type="radio" id="Santorini" name="dolci" value="Santorini">
+    <label for="Santorini">Dolce Santorini</label>
+    <br>
+    <input type="radio" id="Kyoto" name="dolci" value="Kyoto">
+    <label for="Kyoto">Dolce Kyoto</label>
+    <br>
+    <input type="radio" id="Provenza" name="dolci" value="Provenza">
+    <label for="Provenza">Dolce Provenza</label>
+    <br>
+    <input type="radio" id="Rajasthan" name="dolci" value="Rajasthan">
+    <label for="Rajasthan">Dolce Rajasthan</label>
+    <br>
+    <input type="radio" id="Vicensa" name="dolci" value="Vicensa">
+    <label for="Vicensa">Dolce Vicensa</label>
+    <br><br>
+    <label for="stelle">Seleziona voto</label>
+    <select id="stelle" name="stelle" required>
+        <option value="1">1a stella</option>
+        <option value="2">2 stelle</option>
+        <option value="3">3 stelle</option>
+        <option value="4">4 stelle</option>
+        <option value="5">5 stelle</option>
+    </select>
+    <br><br>
+    <label for="recensionescritta">Lascia una recensione</label>
+    <br>
+    <input type="textarea" id="recensionescritta">
+    <br>
+    <button id="conferma" onclick="conferma()">Conferma</button>
+    <p id="output"></p>
+    <br>
+    <a href="../index.html" class="Contatto"> Torna alla home </a>
+</body>
